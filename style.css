@@ -6,3 +6,14 @@
   box-sizing: border-box;
   cursor: url(banana.cur), auto !important;
 }
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+  font-family: ;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
