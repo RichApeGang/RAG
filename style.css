@@ -1,19 +1,71 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 1.5;
   cursor: url(banana.cur), auto !important;
 }
 
 html {
-  font-size: 15px;
+  font-size: 70%;
   scroll-behavior: smooth;
-  font-family: ;
+  font-family: 'Montserrat' sans-serif;
+  overflow-x: hidden;
 }
 
 body {
   min-height: 100vh;
   min-width: 100vw;
+  background: #e6e47e;
+  padding-left: 30rem;
+}
+
+#navigation {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  background: #523e09;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  flex-flow: column;
+  padding: 8rem 2rem;
+  width: 22rem;
+  text-align: center;
+}
+
+#navigation .rag {
+  text-transform: capitalize;
+  color: #eddd85;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#navigation .navbar a {
+  display: block;
+  font-size: 2rem;
+  color: #eddd85;
+  margin: 1rem;
+}
+
+#navigation .navbar a:hover {
+  letter-spacing: .1rem;
+  color: white;
+}
+
+#navigation .links {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#navigation .icon {
+  height: 50px;
+  width: 50px;
+  margin: 30px;
 }
