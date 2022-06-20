@@ -71,7 +71,7 @@ a, a img {
 
 #navigation .icon {
   height: 50px;
-  width: 50px;
+  width: 100px;
   margin: 10px;
 }
 
@@ -80,6 +80,7 @@ a, a img {
   width: 40px;
   filter: grayscale(1);
   transition: 0.05 ease filter;
+  margin-left: 5px;
 }
 
 #navigation img:hover {
