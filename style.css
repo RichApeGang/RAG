@@ -26,6 +26,10 @@ body {
   padding-left: 30rem;
 }
 
+a {
+  cursor: url(ape.cur), auto !important;
+}
+
 #navigation {
   position: fixed;
   top: 0; left: 0; bottom: 0;
@@ -68,4 +72,9 @@ body {
   height: 50px;
   width: 50px;
   margin: 30px;
+}
+
+#navigation img {
+  height: 50px;
+  width: 50px;
 }
