@@ -30,6 +30,8 @@ a, a img {
   cursor: url(ape.cur), auto !important;
 }
 
+
+/* navigation */
 #navigation {
   position: fixed;
   top: 0; left: 0; bottom: 0;
@@ -86,3 +88,4 @@ a, a img {
 #navigation img:hover {
   filter: grayscale(0);
 }
+/* end of navigation */
